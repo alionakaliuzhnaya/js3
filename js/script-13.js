@@ -1,19 +1,16 @@
-//const apartment = {
+const apartment = {
   descr: "Spacious apartment in the city center",
   rating: 4,
   price: 2153,
-//};
-//
-//const values = [];
-//
-//for (const value of values) {
-  values.push(apartment);
-//}
-//const keys = Object.keys(apartment);
-//for (const key of keys) {
-  //console.log(key);
- // console.log(apartment[key]);
-//}
+};
+const values = [];
+
+const keys = Object.keys(apartment);
+for (const key of keys) {
+  values.push(apartment[key]);
+  console.log(key);
+  console.log(apartment[key]);
+}
 
 //Объявлена переменная apartment.
 //Значение переменной apartment это объект.

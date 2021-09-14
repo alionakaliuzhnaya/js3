@@ -3,13 +3,13 @@ const apartment = {
   rating: 4,
   price: 2153,
 };
-const keys = ["descr", "rating", "price"];
-const values = ["Spacious apartment in the city center", 4, 2153];
+const keys = [];
+const values = [];
 // Change code below this line
 for (const key in apartment) {
-  const keys = apartment[key];
+  keys.push(key);
   console.log(key);
-  const values = apartment[key];
+  values.push(apartment[key]);
   console.log(apartment[key]);
 }
 
