@@ -9,8 +9,11 @@ function getProductPrice(productName) {
   // Change code below this line
 
   for (const product of products) {
-    return product.price;
+    if (productName === product.name) {
+      return product.price;
+    }
   }
+  return null;
 
   // Change code above this line
 }
